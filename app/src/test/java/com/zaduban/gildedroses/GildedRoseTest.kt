@@ -12,7 +12,7 @@ internal class GildedRoseTest {
         val items = arrayOf<Item>(Item("Sulfuras", 10, 10))
         val app = GildedRose(items)
         app.updateQuality()
-        assertEquals(9, app.items[0].quality)
+        assertEquals(0, 1)
 
     }
 
